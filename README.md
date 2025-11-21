@@ -15,6 +15,18 @@ Walmart, a global leader in multichannel retail, faces growing competition from 
 
 ---
 
+## Screenshots
+
+(KPIs.png)
+
+Loyalty Impact.png
+
+Channel Insights.png
+
+Segmentation.png
+
+---
+
 ## Key Findings and Insights
 
 - **Churn Rate:**  
