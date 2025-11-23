@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Walmart, a global leader in multichannel retail, faces growing competition from Amazon, Target, and other retailers. Retaining and engaging customers is essential for Walmart’s sustained growth. Despite collecting extensive customer, transaction, and loyalty data, Walmart’s reporting lacked analytical clarity needed for retention strategy.
+Walmart, a global leader in multichannel retail, faces growing competition from Amazon, Target, and other retailers. Retaining and engaging customers is essential for Walmart's sustained growth. Despite collecting extensive customer, transaction, and loyalty data, Walmart's reporting lacked analytical clarity needed for retention strategy.
 
 ---
 
@@ -15,66 +15,154 @@ Walmart, a global leader in multichannel retail, faces growing competition from 
 
 ---
 
-## Screenshots
+## Dashboard Overview
 
-(KPIs.png)
+### Page 1: KPIs & Customer Segmentation
 
-Loyalty Impact.png
+![KPI Dashboard](https://github.com/RishavVishnoi/Power_BI_Retail_Customer_Retention_Analytics-WALMART/blob/main/KPIs.jpg)
 
-Channel Insights.png
+**Key Metrics Displayed:**
+- Total Customers: 300
+- Repeat Customers: 251 (84%)
+- Churned Customers: 149 (49.7%)
+- Average CLV: $126K
+- Churn Rate Funnel visualization
+- Segmentation by Region, Income Level, and Loyalty Tier
 
-Segmentation.png
+---
+
+### Page 2: Repeat Purchase Analysis
+
+![Repeat Purchase Analysis](https://github.com/RishavVishnoi/Power_BI_Retail_Customer_Retention_Analytics-WALMART/blob/main/Segmentation.jpg)
+
+**Key Metrics Displayed:**
+- Average Purchase Frequency: 3.4 purchases
+- Frequency by Region and Age Group
+- Most Purchased Product Categories by Loyal Customers
+- CLV vs Days Since Last Purchase (Scatter Plot)
+- Purchase Tier Segmentation (Low/Mid/High)
+
+---
+
+### Page 3: Store & Channel Performance
+
+![Store Performance](https://github.com/RishavVishnoi/Power_BI_Retail_Customer_Retention_Analytics-WALMART/blob/main/Channel_Insights.jpg)
+
+**Key Metrics Displayed:**
+- Average Transaction Amount by Store Type
+- Churn Rate by Store Type and Channel
+- Retention Rate by Store Opening Year
+- Channel Performance (Online vs Store)
+- Regional insights with slicers
+
+---
+
+### Page 4: Promotion & Loyalty Impact
+
+![Promotion & Loyalty](https://github.com/RishavVishnoi/Power_BI_Retail_Customer_Retention_Analytics-WALMART/blob/main/Loyalty_Impact.jpg)
+
+**Key Metrics Displayed:**
+- Transactions with Promotions Applied: 49%
+- Average Purchase Amount (With vs Without Promotions)
+- Points Earned vs Points Redeemed by Loyalty Tier
+- Churn Rate by Loyalty Tier
+- CLV by Loyalty Tier
+- Average Purchase Frequency by Tier
 
 ---
 
 ## Key Findings and Insights
 
-- **Churn Rate:**  
-  - Overall churn rate is 49.7%.
-  - Highest churn in West (60%), Central (58%), lowest in South (41%).
-  - Online channel churn (53.5%) is notably higher than store churn (45.5%).
-  - Loyalty tiers vary widely, with “Elite” tier showing highest churn (55%).
+### Finding 1: Critical Churn Patterns
+- **Overall churn rate is 49.7%**, indicating significant retention challenges across all segments.
+- **Elite tier has highest churn (55%)** despite premium benefits - program value not meeting expectations.
+- **Online channel shows 53.5% churn** vs 45.5% for stores - digital experience needs improvement.
+- **West region leads churn at 60%** followed by Central (58%), lowest in South (41%).
 
-- **Repeat Rate & Customer Lifetime Value (CLV):**  
-  - 251 out of 300 customers are repeat buyers, average purchase frequency is 3.4.
-  - CLV is highest for “Basic”, “Plus” tiers and specific regions.
+### Finding 2: Loyalty Program Inefficiencies
+- **Low redemption rates across all tiers** - Premium tier earned 201K points but redeemed only 171K.
+- **Basic tier shows highest CLV (35K)** despite being lowest tier - value proposition misalignment.
+- **Low income customers have 53% churn** - pricing or value perception issues for budget-conscious segment.
+- **Promotions show 50/50 split** - neutral impact suggests they're not driving incremental retention.
 
-- **Loyalty Program Impact:**  
-  - Points earned exceed points redeemed, exposing engagement gaps.
-  - Promotions increase average transaction size but are underused in some segments.
-
-- **Segmentation & Store Performance:**  
-  - Slicers enable drill-down by region, channel, income, and loyalty tier for targeted actions.
-  - Sam’s Club and Neighborhood Market have highest avg transaction amounts.
-  - Retention rate not strongly linked to store opening year.
+### Finding 3: Store Performance Insights
+- **Sam's Club and Neighborhood Market** lead in average transaction amounts ($534-531).
+- **Churn rate consistent across all store types (49.7%)** - channel type not the differentiator.
+- **Retention rate shows no strong correlation** with store opening year.
+- **Online channel needs strategic focus** with higher churn and lower repeat rates.
 
 ---
 
 ## Recommendations
 
-1. **Retain high-CLV, at-risk customers** via personalized win-back offers and targeted engagement.
-2. **Focus improvement actions on high-churn channels/regions:** online and West/Central stores.
-3. **Boost loyalty program activity** with easier redemption, bonus campaigns, and targeted tier rewards.
+### 1. Prioritize High-CLV, At-Risk Customers
+- Launch personalized win-back campaigns for high-value Elite customers with enhanced benefits
+- Target customers with high CLV but increasing days since last purchase
+- Offer exclusive, tier-specific redemption events
+
+### 2. Address Underperforming Channels & Regions
+- Focus improvement efforts on West and Central regions (60% and 58% churn)
+- Enhance online channel experience to match in-store retention rates (45.5%)
+- Implement region-specific promotions and loyalty incentives
+
+### 3. Strengthen Loyalty Program Engagement
+- Simplify redemption process and communicate clear value to customers
+- Create bonus redemption events and tier upgrade challenges
+- Run targeted campaigns for low-redemption segments
 
 ---
 
-## Deliverables
+## Dashboard Features
 
-- Multi-page Power BI Dashboard:
-    - KPI page (Churn rate, CLV, Repeat rate)
-    - Loyalty & Promotion Impact visualizations
-    - Store/Channel Performance insights
-    - Customer Segmentation and retention drilldowns
-- Presentation deck summarizing objectives, dashboard views, and recommended actions
+### Interactive Slicers
+- **Region:** Central, East, North, South, West
+- **Preferred Channel:** Online, Store
+- **Income Level:** Low, Medium, High
+- **Loyalty Tier:** Basic, Plus, Elite, Premium
 
----
-
-## How to Use
-
-- Slice and filter the dashboard by Region, Channel, Income Level, Loyalty Tier for specific insights.
-- Leverage visual KPIs and segments to guide strategic priorities.
-- Use insights and recommendations for data-backed retention and loyalty initiatives.
+### Visualizations
+- KPI Cards for quick metric overview
+- Bar Charts for comparisons across segments
+- Funnel Charts for customer drop-off analysis
+- Scatter Plots for correlation analysis
+- Matrix views for multi-dimensional analysis
 
 ---
 
+## Data Model Structure
 
+**Tables:**
+1. Customer_Demographics (300 customers)
+2. Customer_Transactions (1000+ transactions)
+3. Loyalty_Program (tiered membership data)
+4. Churn_Labelled_Customers (churn indicators and reasons)
+5. Store_Locations (store types and regions)
+
+**Key Relationships:**
+- Customer_Demographics (1) → Many (Transactions, Loyalty, Churn)
+- Store_Locations (1) → Many (Transactions)
+
+---
+
+## Technical Implementation
+
+**Tools Used:**
+- Microsoft Power BI Desktop
+- Power Query for data transformation
+- DAX for advanced calculations
+- Multi-page report design
+
+---
+
+## How to Use This Dashboard
+
+1. **Start with Page 1 (KPIs)** to understand overall retention metrics and top-level trends
+2. **Explore Page 2 (Repeat Purchase)** to identify high-value and at-risk customers
+3. **Review Page 3 (Store Performance)** for channel-specific insights
+4. **Analyze Page 4 (Promotion & Loyalty)** to understand program effectiveness
+5. **Use slicers across all pages** to drill down into specific segments (region, channel, income, tier)
+6. **Cross-reference findings** across pages to develop integrated retention strategies
+
+---
+
+**Note:** All dashboard visuals are interactive. Use slicers to filter and explore data for specific business context.
